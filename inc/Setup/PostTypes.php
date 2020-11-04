@@ -3,20 +3,25 @@
  * 
  * @package Paradise
  */
+namespace Paradise\Setup;
 
-namespace Paradise;
+use Paradise\Setup\PostTypes\Course;
 
-use Paradise\Setup;
-
-final class Init
+class PostTypes
 {
+    public function register()
+    {
+        $this->register_classes();
+    }
+
     public static function get_classes()
     {
         return [
-            Setup\Setup::class,
-            Setup\Enqueue::class,
-            Setup\Menus::class,
-            Setup\PostTypes::class,
+            Course::class,
+            //Setup\Setup::class,
+            //Setup\Enqueue::class,
+            //Setup\Menus::class,
+            //Setup\PostTypes::class,
             // Woocommerce\Woocommerce::class,
         ];
     }
