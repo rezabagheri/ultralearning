@@ -1,0 +1,18 @@
+{
+    "name": "reza/ultralearning",
+    "description": "A WordPress Engine System",
+    "type": "project",
+    "require": {
+        "twbs/bootstrap": "^5.0@alpha",
+        "fortawesome/font-awesome": "dev-master",
+        "select2/select2": "dev-master"
+    },
+    "license": "GPL3",
+    "authors": [
+        {
+            "name": "reza bagheri",
+            "email": "rezabagheri@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
