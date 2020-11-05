@@ -1,0 +1,27 @@
+{
+    "name": "ultralearning",
+    "version": "1.0.0",
+    "description": "Boostraped sbadmin WordPress Template for UltraLearning system",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/rezabagheri/ultralearning.git"
+    },
+    "dependencies": {
+        "@fortawesome/fontawesome-free": "5.15.1",
+        "bootstrap": "4.5.3",
+        "chart.js": "2.9.4",
+        "datatables.net-bs4": "1.10.22",
+        "jquery": "3.5.1",
+        "jquery.easing": "^1.4.1"
+    },
+    "author": "Reza Bagheri (Rezo)",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/rezabagheri/ultralearning/issues"
+    },
+    "homepage": "https://github.com/rezabagheri/ultralearning#readme"
+}

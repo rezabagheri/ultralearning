@@ -6,6 +6,7 @@
 namespace Paradise\Setup;
 
 use Paradise\Setup\PostTypes\Course;
+use Paradise\Setup\PostTypes\FlashCard;
 
 class PostTypes
 {
@@ -18,11 +19,7 @@ class PostTypes
     {
         return [
             Course::class,
-            //Setup\Setup::class,
-            //Setup\Enqueue::class,
-            //Setup\Menus::class,
-            //Setup\PostTypes::class,
-            // Woocommerce\Woocommerce::class,
+            FlashCard::class,
         ];
     }
 
