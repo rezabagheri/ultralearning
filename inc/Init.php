@@ -17,6 +17,7 @@ final class Init
             Setup\Enqueue::class,
             Setup\Menus::class,
             Setup\PostTypes::class,
+            Setup\AdminMenu::class,
             // Woocommerce\Woocommerce::class,
         ];
     }
